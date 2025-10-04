@@ -702,7 +702,7 @@ const Page = () => {
                       <p className="text-sm text-slate-700 leading-relaxed">
                         {expandedMessageId === msg.id ? msg.message : truncateWords(msg.message, 20)}
                       </p>
-                      {msg.message.split(' ').length > 20 && (
+                      {msg.message.split(' ').length > 50 && (
                         <Button
                           variant="link"
                           size="sm"
